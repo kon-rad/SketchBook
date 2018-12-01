@@ -14,4 +14,10 @@ class RatingControl: UIStackView {
     override init(frame: CGRect) {
         <#code#>
     }
+    
+    required init(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    //MARK: Private Methods
 }
